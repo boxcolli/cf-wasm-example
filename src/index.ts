@@ -1,5 +1,5 @@
 import { Hono } from 'hono'
-import wasmModule from './add.wasm'
+import wasmModule from '@/src/add.wasm'
 import { AddWasmExports } from 'add-module'
 
 const app = new Hono()

@@ -1,8 +1,5 @@
 # Hello wasm
 
-* wasm on Cloudflare Workers
-* emscripten is required: <https://emscripten.org/>
+A tutorial showing how to import and use wasm module (with cloudflare)
 
-## Author
-
-Yusuke Wada <https://github.com/yusukebe>
+This repo is a fork from [yusukebe](https://github.com/yusukebe/hello-wasm)
