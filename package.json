@@ -5,7 +5,8 @@
   "scripts": {
     "build": "emcc ./src/add.c -o ./src/add.wasm --no-entry -s EXPORTED_FUNCTIONS=\"['_add']\"",
     "dev": "wrangler dev src/index.ts",
-    "deploy": "wrangler publish src/index.ts"
+    "start": "wrangler pages dev ./build/client",
+    "deploy": "wrangler publish src/index.ts"    
   },
   "license": "MIT",
   "devDependencies": {

@@ -1,9 +1,8 @@
 import { Hono } from 'hono'
-import wasmModule from '@/src/add.wasm'
+import wasmModule from './add.wasm'
 import { AddWasmExports } from 'add-module'
 
 const app = new Hono()
-
 
 app.get('/', async (c) => {
   const { a, b } = c.req.query()
